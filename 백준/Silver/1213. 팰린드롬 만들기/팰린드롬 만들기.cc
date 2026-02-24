@@ -12,46 +12,24 @@ int main()
     ios::sync_with_stdio(0);
 
     map<char, int> count;
-    string a;
-    cin >> a;
-
-    for (int i = 0; i < a.length(); i++)
-    {
-        count[a[i]]++;
-    }
-    string str;
+    string a, str, temp, mid = "";
     int oddCount = 0;
+    cin >> a;
+    for (int i = 0; i < a.length(); i++)
+        count[a[i]]++;
 
-    if (a.length() % 2 == 0)
+    if (a.length() % 2 == 0) // 짝수일때
     {
-        string temp;
-        if (count.size() > a.length() / 2)
-            cout << "I'm Sorry Hansoo";
-        else
+        for (auto i : count)
         {
-            for (auto i : count)
-            {
-                if (i.second % 2 == 1)
-                {
-                    oddCount++;
-                }
-                for (int n = 0; n < i.second / 2; n++)
-                    temp += i.first;
-            }
-            if (oddCount > 1)
-            {
-                cout << "I'm Sorry Hansoo";
-                return 0;
-            }
-            str += temp;
-            reverse(temp.begin(), temp.end());
-            str += temp;
+            if (i.second % 2 == 1)
+                oddCount++;
+            for (int n = 0; n < i.second / 2; n++)
+                temp += i.first;
         }
     }
-    else
+    else // 홀수일때
     {
-        string temp;
-        string mid = "";
         for (auto i : count)
         {
             if (i.second % 2 == 1)
@@ -62,17 +40,14 @@ int main()
             for (int n = 0; n < i.second / 2; n++)
                 temp += i.first;
         }
-
-        if (oddCount > 1)
-        {
-            cout << "I'm Sorry Hansoo";
-            return 0;
-        }
-        str += temp;
-        str += mid;
-
-        reverse(temp.begin(), temp.end());
-        str += temp;
     }
-    cout << str;
+    str += temp;
+    str += mid;
+    reverse(temp.begin(), temp.end());
+    str += temp;
+
+    if (oddCount > 1 || str.size() == 0)
+        cout << "I'm Sorry Hansoo";
+    else
+        cout << str;
 }
