@@ -12,42 +12,27 @@ int main()
     ios::sync_with_stdio(0);
 
     map<char, int> count;
-    string a, str, temp, mid = "";
+    string a, temp, mid = "";
     int oddCount = 0;
     cin >> a;
     for (int i = 0; i < a.length(); i++)
         count[a[i]]++;
+    for (auto i : count)
+    {
+        if (i.second % 2 == 1)
+        {
+            oddCount++;
+            mid = i.first;
+        }
+        temp += string(i.second / 2, i.first);
+    }
 
-    if (a.length() % 2 == 0) // 짝수일때
-    {
-        for (auto i : count)
-        {
-            if (i.second % 2 == 1)
-                oddCount++;
-            for (int n = 0; n < i.second / 2; n++)
-                temp += i.first;
-        }
-    }
-    else // 홀수일때
-    {
-        for (auto i : count)
-        {
-            if (i.second % 2 == 1)
-            {
-                oddCount++;
-                mid = i.first;
-            }
-            for (int n = 0; n < i.second / 2; n++)
-                temp += i.first;
-        }
-    }
-    str += temp;
-    str += mid;
+    string result = temp + mid;
     reverse(temp.begin(), temp.end());
-    str += temp;
+    result += temp;
 
-    if (oddCount > 1 || str.size() == 0)
+    if (oddCount > 1)
         cout << "I'm Sorry Hansoo";
     else
-        cout << str;
+        cout << result;
 }
