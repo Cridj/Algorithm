@@ -21,6 +21,34 @@ void dfs(int y, int x, int height)
     }
 }
 
+void bfs(int y, int x, int height)
+{
+    if(visited[y][x] == true)
+        return;
+    queue<pair<int, int>> q;
+    q.push({y, x});
+    visited[y][x] = true;
+
+    while (!q.empty())
+    {
+        auto cur = q.front();
+        q.pop();
+        for (int i = 0; i < 4; i++)
+        {
+            int ny = cur.first + dy[i];
+            int nx = cur.second + dx[i];
+
+            if (ny < 0 || ny >= N || nx < 0 || nx >= N || adj[ny][nx] <= height)
+                continue;
+
+            if (!visited[ny][nx])
+            {
+                visited[ny][nx] = true;
+                q.push({ny, nx});
+            }
+        }
+    }
+}
 
 int main()
 {
@@ -43,7 +71,24 @@ int main()
     }
 
     int maxCnt = -1;
-    for (auto h : heights)
+    // for (auto h : heights) // dfs
+    // {
+    //     int cnt = 0;
+    //     visited.assign(N, vector<bool>(N, false));
+    //     for (int y = 0; y < N; y++)
+    //     {
+    //         for (int x = 0; x < N; x++)
+    //         {
+    //             if (adj[y][x] > h && !visited[y][x])
+    //             {
+    //                 cnt++;
+    //                 dfs(y, x, h);
+    //             }
+    //         }
+    //     }
+    //     maxCnt = max(maxCnt, cnt);
+    // }
+    for (auto h : heights) // bfs
     {
         int cnt = 0;
         visited.assign(N, vector<bool>(N, false));
@@ -54,7 +99,7 @@ int main()
                 if (adj[y][x] > h && !visited[y][x])
                 {
                     cnt++;
-                    dfs(y, x, h);
+                    bfs(y, x, h);
                 }
             }
         }
