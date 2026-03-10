@@ -10,7 +10,7 @@ struct Pos
     int x;
 };
 
-void check(Pos start, Pos end, string &s)
+void check(Pos start, Pos end)
 {
     int first = board[start.y][start.x];
     bool clear = true;
@@ -29,17 +29,17 @@ void check(Pos start, Pos end, string &s)
 
     if (clear) // 만약 다 같으면 0 또는 1 더하기
     {
-        s += to_string(first);
+        cout << first;
         return;
     }
 
-    s += "(";
+    cout << "(";
     int half = (end.x - start.x) / 2;
-    check({start.y, start.x}, {start.y + half, start.x + half}, s); // 좌상
-    check({start.y, start.x + half}, {start.y + half, end.x}, s); // 우상
-    check({start.y + half, start.x}, {end.y, start.x + half}, s); // 좌하
-    check({start.y + half, start.x + half}, {end.y, end.x}, s); //우하
-    s += ")";
+    check({start.y, start.x}, {start.y + half, start.x + half}); // 좌상
+    check({start.y, start.x + half}, {start.y + half, end.x}); // 우상
+    check({start.y + half, start.x}, {end.y, start.x + half}); // 좌하
+    check({start.y + half, start.x + half}, {end.y, end.x}); //우하
+    cout << ")";
 }
 
 int main()
@@ -58,6 +58,6 @@ int main()
     Pos start = {0, 0};
     Pos end = {N, N};
     string s;
-    check(start, end, s);
+    check(start, end);
     cout << s;
 }
