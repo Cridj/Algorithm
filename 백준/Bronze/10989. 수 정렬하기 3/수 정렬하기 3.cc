@@ -8,21 +8,21 @@ int main()
 
     int N;
     cin >> N;
-    map<int, int> number;
-    for(int i = 0; i < N; i++)
+
+    int cnt[10001] = {0};
+
+    for (int i = 0; i < N; i++)
     {
-        int a;
-        cin >> a;
-        number[a]++;
+        int x;
+        cin >> x;
+        cnt[x]++;
     }
 
-    // sort(number.begin(), number.end());
-
-    for(auto n : number)
+    for (int i = 1; i <= 10000; i++)
     {
-        for(int i = 0; i < n.second; i++)
+        while (cnt[i]--)
         {
-             cout << n.first << "\n";
+            cout << i << '\n';
         }
     }
 }
