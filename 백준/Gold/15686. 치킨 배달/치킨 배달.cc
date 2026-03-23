@@ -45,7 +45,6 @@ int main()
 
     cin >> N >> M;
 
-
     for (int y = 0; y < N; y++)
     {
         for (int x = 0; x < N; x++)
@@ -58,10 +57,6 @@ int main()
                 chicken.push_back({y, x});
         }
     }
-
-    //와일문 돌며 치킨집 중 M 개 선별, 모든 경우의 수
-    //집에서 가장 가까운 치킨집까지의 경로 탐색 후 합산
-    //합산 값이 가장 낮은 경우의 수의 값 출력
     select_chicken(0);
     cout << min_distance;
 }
