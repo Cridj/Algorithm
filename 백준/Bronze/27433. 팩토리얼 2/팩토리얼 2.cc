@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+long long factorial(int n)
+{
+    if(n <= 1) return 1;
+    return n * factorial(n - 1);
+}
+
 int main()
 {
     cin.tie(0);
@@ -9,11 +15,8 @@ int main()
 
     int N;
     cin >> N;
-
-    long long total = 1;
-    for(int i = N; i > 0; i--)
-        total *= i;
-    cout << total;
+    cout << factorial(N);
 
     return 0;
 }
+
