@@ -6,7 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Total Solved | Easy | Medium | Hard |
 | ---: | ---: | ---: | ---: |
-| 2 | 2 | 0 | 0 |
+| 3 | 3 | 0 | 0 |
 
 ## Activity
 
@@ -16,28 +16,29 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Date | Problems |
 | --- | ---: |
-| 2026-06-18 | 2 |
+| 2026-06-18 | 3 |
 
 ## Top Tags
 
 | Tag | Problems | Coverage |
 | --- | ---: | ---: |
-| Dynamic Programming | 2 | 100% |
-| Bit Manipulation | 1 | 50% |
-| Math | 1 | 50% |
-| Memoization | 1 | 50% |
+| Dynamic Programming | 3 | 100% |
+| Array | 1 | 33% |
+| Bit Manipulation | 1 | 33% |
+| Math | 1 | 33% |
+| Memoization | 1 | 33% |
 
 ## Topics
 
 | Topic | Problems |
 | --- | ---: |
-| [Array](Topics/array/) | 0 |
+| [Array](Topics/array/) | 1 |
 | [Backtracking](Topics/backtracking/) | 0 |
 | [Binary Search](Topics/binary-search/) | 0 |
 | [Binary Tree](Topics/binary-tree/) | 0 |
 | [Bit Manipulation](Topics/bit-manipulation/) | 1 |
 | [Data Structures](Topics/data-structures/) | 0 |
-| [Dynamic Programming](Topics/dynamic-programming/) | 2 |
+| [Dynamic Programming](Topics/dynamic-programming/) | 3 |
 | [Graph](Topics/graph/) | 0 |
 | [Hash Table](Topics/hash-table/) | 0 |
 | [Heap](Topics/heap/) | 0 |
