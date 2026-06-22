@@ -4,7 +4,7 @@
     "slug": "dynamic-programming",
     "name": "Dynamic Programming"
   },
-  "updatedAt": "2026-06-22T10:51:29.159Z",
+  "updatedAt": "2026-06-22T11:06:09.629Z",
   "problems": [
     {
       "frontendId": "70",
@@ -163,6 +163,26 @@
           "path": "0746-min-cost-climbing-stairs/0746-min-cost-climbing-stairs.cpp",
           "sha": "ef9c0ee74664290caf05e0cb4a5003de4da557f0",
           "lastSyncedAt": "2026-06-22T10:51:29.159Z"
+        }
+      ]
+    },
+    {
+      "frontendId": "1025",
+      "title": "Divisor Game",
+      "slug": "divisor-game",
+      "problemName": "1025-divisor-game",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/divisor-game/",
+      "folderPath": "1025-divisor-game/",
+      "readmePath": "1025-divisor-game/README.md",
+      "solutions": [
+        {
+          "language": "C++",
+          "extension": ".cpp",
+          "filename": "1025-divisor-game.cpp",
+          "path": "1025-divisor-game/1025-divisor-game.cpp",
+          "sha": "14d39e1ff7f28ca5f0fa734560227134b2ede778",
+          "lastSyncedAt": "2026-06-22T11:06:09.629Z"
         }
       ]
     }
