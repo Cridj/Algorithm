@@ -6,7 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Total Solved | Easy | Medium | Hard |
 | ---: | ---: | ---: | ---: |
-| 5 | 5 | 0 | 0 |
+| 6 | 6 | 0 | 0 |
 
 ## Activity
 
@@ -16,21 +16,22 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Date | Problems |
 | --- | ---: |
-| 2026-06-22 | 5 |
+| 2026-06-22 | 6 |
 
 ## Top Tags
 
 | Tag | Problems | Coverage |
 | --- | ---: | ---: |
-| Dynamic Programming | 5 | 100% |
-| Math | 3 | 60% |
-| Memoization | 2 | 40% |
-| Array | 1 | 20% |
-| Brainteaser | 1 | 20% |
-| Game Theory | 1 | 20% |
-| Recursion | 1 | 20% |
-| String | 1 | 20% |
-| Two Pointers | 1 | 20% |
+| Dynamic Programming | 6 | 100% |
+| Math | 3 | 50% |
+| Memoization | 2 | 33% |
+| String | 2 | 33% |
+| Array | 1 | 17% |
+| Brainteaser | 1 | 17% |
+| Game Theory | 1 | 17% |
+| Recursion | 1 | 17% |
+| String Matching | 1 | 17% |
+| Two Pointers | 1 | 17% |
 
 ## Topics
 
@@ -43,7 +44,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [Bit Manipulation](Topics/bit-manipulation/) | 1 |
 | [Brainteaser](Topics/brainteaser/) | 1 |
 | [Data Structures](Topics/data-structures/) | 0 |
-| [Dynamic Programming](Topics/dynamic-programming/) | 10 |
+| [Dynamic Programming](Topics/dynamic-programming/) | 11 |
 | [Game Theory](Topics/game-theory/) | 1 |
 | [Graph](Topics/graph/) | 0 |
 | [Hash Table](Topics/hash-table/) | 0 |
@@ -55,6 +56,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [Recursion](Topics/recursion/) | 1 |
 | [Sorting](Topics/sorting/) | 0 |
 | [Stack](Topics/stack/) | 0 |
-| [String](Topics/string/) | 1 |
+| [String](Topics/string/) | 2 |
+| [String Matching](Topics/string-matching/) | 1 |
 | [Two Pointers](Topics/two-pointers/) | 1 |
 <!---LeetHub Summary End-->
