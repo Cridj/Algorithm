@@ -4,7 +4,7 @@
     "slug": "dynamic-programming",
     "name": "Dynamic Programming"
   },
-  "updatedAt": "2026-06-22T11:11:40.731Z",
+  "updatedAt": "2026-06-22T11:36:57.660Z",
   "problems": [
     {
       "frontendId": "70",
@@ -203,6 +203,26 @@
           "path": "1137-n-th-tribonacci-number/1137-n-th-tribonacci-number.cpp",
           "sha": "29dffdaf37f6fc0ab26fdd26b22d96f1495a8f83",
           "lastSyncedAt": "2026-06-22T11:11:40.731Z"
+        }
+      ]
+    },
+    {
+      "frontendId": "1668",
+      "title": "Maximum Repeating Substring",
+      "slug": "maximum-repeating-substring",
+      "problemName": "1668-maximum-repeating-substring",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/maximum-repeating-substring/",
+      "folderPath": "1668-maximum-repeating-substring/",
+      "readmePath": "1668-maximum-repeating-substring/README.md",
+      "solutions": [
+        {
+          "language": "C++",
+          "extension": ".cpp",
+          "filename": "1668-maximum-repeating-substring.cpp",
+          "path": "1668-maximum-repeating-substring/1668-maximum-repeating-substring.cpp",
+          "sha": "df63ba1a0e6ec0da1d6faee77d10f18c0009b93a",
+          "lastSyncedAt": "2026-06-22T11:36:57.660Z"
         }
       ]
     }
