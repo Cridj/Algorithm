@@ -4,7 +4,7 @@
     "slug": "array",
     "name": "Array"
   },
-  "updatedAt": "2026-06-18T11:13:25.345Z",
+  "updatedAt": "2026-06-22T10:51:29.159Z",
   "problems": [
     {
       "frontendId": "118",
@@ -63,6 +63,26 @@
           "path": "0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.cpp",
           "sha": "fe504b21bf34e7957af5cdd6c6a9796b945bf7cb",
           "lastSyncedAt": "2026-06-18T11:13:25.345Z"
+        }
+      ]
+    },
+    {
+      "frontendId": "746",
+      "title": "Min Cost Climbing Stairs",
+      "slug": "min-cost-climbing-stairs",
+      "problemName": "0746-min-cost-climbing-stairs",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+      "folderPath": "0746-min-cost-climbing-stairs/",
+      "readmePath": "0746-min-cost-climbing-stairs/README.md",
+      "solutions": [
+        {
+          "language": "C++",
+          "extension": ".cpp",
+          "filename": "0746-min-cost-climbing-stairs.cpp",
+          "path": "0746-min-cost-climbing-stairs/0746-min-cost-climbing-stairs.cpp",
+          "sha": "ef9c0ee74664290caf05e0cb4a5003de4da557f0",
+          "lastSyncedAt": "2026-06-22T10:51:29.159Z"
         }
       ]
     }
