@@ -4,7 +4,7 @@
     "slug": "math",
     "name": "Math"
   },
-  "updatedAt": "2026-06-22T11:06:09.629Z",
+  "updatedAt": "2026-06-22T11:06:25.414Z",
   "problems": [
     {
       "frontendId": "70",
@@ -62,7 +62,7 @@
           "filename": "1025-divisor-game.cpp",
           "path": "1025-divisor-game/1025-divisor-game.cpp",
           "sha": "14d39e1ff7f28ca5f0fa734560227134b2ede778",
-          "lastSyncedAt": "2026-06-22T11:06:09.629Z"
+          "lastSyncedAt": "2026-06-22T11:06:25.414Z"
         }
       ]
     }
