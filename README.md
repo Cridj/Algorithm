@@ -6,7 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Total Solved | Easy | Medium | Hard |
 | ---: | ---: | ---: | ---: |
-| 1 | 1 | 0 | 0 |
+| 2 | 2 | 0 | 0 |
 
 ## Activity
 
@@ -16,15 +16,18 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Date | Problems |
 | --- | ---: |
-| 2026-06-22 | 1 |
+| 2026-06-22 | 2 |
 
 ## Top Tags
 
 | Tag | Problems | Coverage |
 | --- | ---: | ---: |
-| Dynamic Programming | 1 | 100% |
-| String | 1 | 100% |
-| Two Pointers | 1 | 100% |
+| Dynamic Programming | 2 | 100% |
+| Math | 1 | 50% |
+| Memoization | 1 | 50% |
+| Recursion | 1 | 50% |
+| String | 1 | 50% |
+| Two Pointers | 1 | 50% |
 
 ## Topics
 
