@@ -4,7 +4,7 @@
     "slug": "memoization",
     "name": "Memoization"
   },
-  "updatedAt": "2026-06-18T10:23:32.129Z",
+  "updatedAt": "2026-06-22T10:35:04.600Z",
   "problems": [
     {
       "frontendId": "70",
@@ -23,6 +23,26 @@
           "path": "0070-climbing-stairs/0070-climbing-stairs.cpp",
           "sha": "a525cd0e19947fc65ed6fef77a74c1ac58df8f8c",
           "lastSyncedAt": "2026-06-18T10:23:32.129Z"
+        }
+      ]
+    },
+    {
+      "frontendId": "509",
+      "title": "Fibonacci Number",
+      "slug": "fibonacci-number",
+      "problemName": "0509-fibonacci-number",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/fibonacci-number/",
+      "folderPath": "0509-fibonacci-number/",
+      "readmePath": "0509-fibonacci-number/README.md",
+      "solutions": [
+        {
+          "language": "C++",
+          "extension": ".cpp",
+          "filename": "0509-fibonacci-number.cpp",
+          "path": "0509-fibonacci-number/0509-fibonacci-number.cpp",
+          "sha": "0ab0273d0d02f634e20711cd990b80b2cb3e40bf",
+          "lastSyncedAt": "2026-06-22T10:35:04.600Z"
         }
       ]
     }
