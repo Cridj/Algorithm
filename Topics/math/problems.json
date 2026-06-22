@@ -4,7 +4,7 @@
     "slug": "math",
     "name": "Math"
   },
-  "updatedAt": "2026-06-22T11:06:25.414Z",
+  "updatedAt": "2026-06-22T11:11:40.731Z",
   "problems": [
     {
       "frontendId": "70",
@@ -63,6 +63,26 @@
           "path": "1025-divisor-game/1025-divisor-game.cpp",
           "sha": "14d39e1ff7f28ca5f0fa734560227134b2ede778",
           "lastSyncedAt": "2026-06-22T11:06:25.414Z"
+        }
+      ]
+    },
+    {
+      "frontendId": "1137",
+      "title": "N-th Tribonacci Number",
+      "slug": "n-th-tribonacci-number",
+      "problemName": "1137-n-th-tribonacci-number",
+      "difficulty": "Easy",
+      "leetcodeUrl": "https://leetcode.com/problems/n-th-tribonacci-number/",
+      "folderPath": "1137-n-th-tribonacci-number/",
+      "readmePath": "1137-n-th-tribonacci-number/README.md",
+      "solutions": [
+        {
+          "language": "C++",
+          "extension": ".cpp",
+          "filename": "1137-n-th-tribonacci-number.cpp",
+          "path": "1137-n-th-tribonacci-number/1137-n-th-tribonacci-number.cpp",
+          "sha": "29dffdaf37f6fc0ab26fdd26b22d96f1495a8f83",
+          "lastSyncedAt": "2026-06-22T11:11:40.731Z"
         }
       ]
     }
