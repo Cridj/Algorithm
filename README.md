@@ -6,7 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Total Solved | Easy | Medium | Hard |
 | ---: | ---: | ---: | ---: |
-| 5 | 5 | 0 | 0 |
+| 1 | 1 | 0 | 0 |
 
 ## Activity
 
@@ -16,17 +16,15 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Date | Problems |
 | --- | ---: |
-| 2026-06-18 | 5 |
+| 2026-06-22 | 1 |
 
 ## Top Tags
 
 | Tag | Problems | Coverage |
 | --- | ---: | ---: |
-| Dynamic Programming | 5 | 100% |
-| Array | 3 | 60% |
-| Bit Manipulation | 1 | 20% |
-| Math | 1 | 20% |
-| Memoization | 1 | 20% |
+| Dynamic Programming | 1 | 100% |
+| String | 1 | 100% |
+| Two Pointers | 1 | 100% |
 
 ## Topics
 
@@ -38,7 +36,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [Binary Tree](Topics/binary-tree/) | 0 |
 | [Bit Manipulation](Topics/bit-manipulation/) | 1 |
 | [Data Structures](Topics/data-structures/) | 0 |
-| [Dynamic Programming](Topics/dynamic-programming/) | 5 |
+| [Dynamic Programming](Topics/dynamic-programming/) | 6 |
 | [Graph](Topics/graph/) | 0 |
 | [Hash Table](Topics/hash-table/) | 0 |
 | [Heap](Topics/heap/) | 0 |
@@ -48,4 +46,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [Memoization](Topics/memoization/) | 1 |
 | [Sorting](Topics/sorting/) | 0 |
 | [Stack](Topics/stack/) | 0 |
+| [String](Topics/string/) | 1 |
+| [Two Pointers](Topics/two-pointers/) | 1 |
 <!---LeetHub Summary End-->
